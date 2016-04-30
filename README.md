@@ -3,7 +3,7 @@ My first attempt at completing Harvard University's Introduction to Computer Sci
 
 
 | Problem Set        | Due Date           | Location  |
-| ------------- |:-------------:| -----:|
+| ------------- |:-------------:| -----|
 | Problem Set 0      | January 23, 2016   | No Link |
 | Problem Set 1      | February 14, 2016  | [Link](https://github.com/f43154/CS50/tree/master/pset1) |
 | Problem Set 2      | March 6, 2016      | [Link](https://github.com/f43154/CS50/tree/master/pset2) |
