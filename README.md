@@ -4,7 +4,7 @@ My first attempt at completing Harvard University's Introduction to Computer Sci
 
 | Problem Set        | Due Date           | Completion Date           | Location  |
 | ------------- |:-------------:|:-------------:| -----|
-| Problem Set 0      | January 23, 2016   | January 2, 2016   | No Link |
+| Problem Set 0      | January 23, 2016   | January 2, 2016   | [Link](https://scratch.mit.edu/projects/92891209/) |
 | Problem Set 1      | February 14, 2016  | January 31, 2016   | [Link](https://github.com/f43154/CS50/tree/master/pset1) |
 | Problem Set 2      | March 6, 2016      | February 28, 2016   | [Link](https://github.com/f43154/CS50/tree/master/pset2) |
 | Problem Set 3      | March 28, 2016     | April 3, 2016   | [Link](https://github.com/f43154/CS50/tree/master/pset3) |
