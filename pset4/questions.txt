@@ -1,0 +1,41 @@
+0.  GIF     256 Colours
+    JPEG    16.7 million Colours
+    PNG     256 Colours
+    BMP     256 Colours
+1.  GIF
+2.  LOSSY       -"Reduces a file by permanently eliminating certain information, especially redundant information"
+    LOSSLESS    -"Every single bit of data that was originally in the file remains after the file is uncompressed" 
+    (http://whatis.techtarget.com/definition/lossless-and-lossy-compression)
+3.  LOSSY
+    -JPEG
+    LOSSLESS
+    -GIF
+    -BMP
+    -PNG
+4.  Two things occur with the actual file data never touched:
+    i) The system modifies the filename's first character int eh file's directory entry to signal that the file has been deleted and that the directory entry can be recycled.
+    ii) The system moves all of the files' FAT clusters to the hard drive's list of free clusters. 
+5.  -Physically destroying the device, rendering it unusable
+    -Degaussing the device to randomize the magnetic domains, often making it unusable
+    -Overwriting the drive's data so it cannot be recovered
+6.  "<stdint.h> is a header file in the C standard library that allows programmers to write more portable code by providing a set of typedefs that specify exact-width integer types, together with the defined minimum and maximum allowable values for each type, using macros
+7.  The number indicates how much data you want to use, good for BIT HEADERS
+8.  BYTE    1 Byte  8 Bits
+    DWORD   4 Bytes 32 Bits
+    LONG    4 Bytes 32 Unsigned Bits
+    WORD    2 Bytes 16 Bits
+9.  A WORD (2 Bytes) denoting file size, bfType set to BM (0x4D42)
+10. bfSize  size of the bitmap file, in bytes (entire size of file)
+    biSize  size of the structure, in bytes (size of BITMAPINFOHEADER)
+11. +biHeight   Origins of bitmap is lower left corner because it's bottom-up device independent bitmap (DIB)
+    -biHeight   Origins of the bitmap is upper left corner because it's top-down device independent bitmap (DIB)
+12. biBitCount
+13. fopen will return NULL
+14. It indicates how many elements we want to read, in this case we only want to read one element or just one struct.
+15. biWidth is the width of the bitmap in pixels
+    If width is 3, padding is necessary to make it a multiple of 4
+    3 pixels & 3 bytes per pixel = 9 bytes
+    We need a padding of 3 bytes to bring the scanline to 12 bytes, a multiple of 4
+16. fseek skips over padding and looks for the next pixel (RGB triple)
+17. SEEK_CUR is an integer constant used in fseek to set the offset relative tot eh current pointer position
+18. TODO
