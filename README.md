@@ -1,5 +1,5 @@
 # CS50
-My first attempt at completing Harvard University's Introduction to Computer Science course, CS50
+My first attempt at completing Harvard University's Introduction to Computer Science course.
 
 
 | Problem Set        | Due Date           | Completion Date           | Location  |
